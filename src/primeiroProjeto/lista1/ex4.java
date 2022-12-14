@@ -1,4 +1,4 @@
-package primeiroProjeto;
+package primeiroProjeto.lista1;
 
 	/*
 	4. Escreva um sistema que leia três números inteiros e positivos (A, B, C) e

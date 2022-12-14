@@ -1,4 +1,4 @@
-package primeiroProjeto;
+package primeiroProjeto.lista1;
 
     /*
     8. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a percentagem do distribuidor e dos

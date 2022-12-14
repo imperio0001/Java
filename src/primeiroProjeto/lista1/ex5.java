@@ -1,4 +1,4 @@
-package primeiroProjeto;
+package primeiroProjeto.lista1;
 
     /*
     5. Faça um sistema que leia as 3 notas de um aluno e calcule a média final deste aluno. Considerar que a média é

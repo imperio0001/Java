@@ -1,4 +1,4 @@
-package primeiroProjeto;
+package primeiroProjeto.lista1;
 
     /*
     7. Um sistema de equações lineares do tipo:
@@ -13,26 +13,26 @@ import java.util.Scanner;
 public class ex7 {
     public static void main(String[] args){
 
-    double a, b, c, d, g, f, x, y;
+    float a, b, c, d, g, f, x, y;
     Scanner entrada = new Scanner(System.in);
 
     System.out.println("Digite o valor do a: ");
-    a = entrada.nextInt();
+    a = entrada.nextFloat();
 
     System.out.println("Digite o valor do b: ");
-    b = entrada.nextInt();
+    b = entrada.nextFloat();
 
     System.out.println("Digite o valor do c: ");
-    c = entrada.nextInt();
+    c = entrada.nextFloat();
 
     System.out.println("Digite o valor do d: ");
-    d = entrada.nextInt();
+    d = entrada.nextFloat();
 
     System.out.println("Digite o valor do g: ");
-    g = entrada.nextInt();
+    g = entrada.nextFloat();
 
     System.out.println("Digite o valor do f: ");
-    f = entrada.nextInt();
+    f = entrada.nextFloat();
 
     x = (c*g - b*f)/(a*g - b*d);
     y = (a*f - c*a)/(a*g - b*d);
