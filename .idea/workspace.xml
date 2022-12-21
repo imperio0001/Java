@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1ca5e5a-feaf-4238-8fff-5865079c56ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/primeiroProjeto/lacosRepeticao/ex1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeiroProjeto/lacosRepeticao/ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeiroProjeto/lacosRepeticao/ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeiroProjeto/lacosRepeticao/ex4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeiroProjeto/lacosRepeticao/ex5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/primeiroProjeto/lacosRepeticao/ex6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/primeiroProjeto/jogoDeAzar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/primeiroProjeto/switchCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/primeiroProjeto/lacosRepeticao/ex4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/primeiroProjeto/lacosRepeticao/ex4.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +40,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.ex4">
-    <configuration name="ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="primeiroProjeto.lacosRepeticao.ex2" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="primeiroProjeto.lacosRepeticao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="primeiroProjeto.lacosRepeticao.ex3" />
+  <component name="RunManager" selected="Application.jogoDeAzar">
+    <configuration name="ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeiroProjeto.lacosRepeticao.ex1" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -96,19 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="primeiroProjeto.lacosRepeticao.ex5" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="primeiroProjeto.lacosRepeticao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="primeiroProjeto.lacosRepeticao.ex6" />
       <module name="Java" />
@@ -122,13 +93,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jogoDeAzar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeiroProjeto.jogoDeAzar" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primeiroProjeto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="switchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="primeiroProjeto.switchCase" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="primeiroProjeto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.jogoDeAzar" />
+        <item itemvalue="Application.switchCase" />
+        <item itemvalue="Application.ex1" />
         <item itemvalue="Application.ex4" />
         <item itemvalue="Application.ex6" />
-        <item itemvalue="Application.ex3 (1)" />
-        <item itemvalue="Application.ex2" />
-        <item itemvalue="Application.ex5" />
       </list>
     </recent_temporary>
   </component>
