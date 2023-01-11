@@ -1,4 +1,4 @@
-package primeiroProjeto.POO.contabancaria;
+package primeiroProjeto.classeObjeto.ex6;
 
 public class TesteContaBancaria {
 

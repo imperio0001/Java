@@ -1,9 +1,8 @@
 package primeiroProjeto;
 
 import java.util.InputMismatchException;
-import java.util.NoSuchElementException;
-import java.util.Scanner;
 
+import java.util.Scanner;
 import java.util.Random;
 
 public class jogoDeAzar {
@@ -21,16 +20,17 @@ public class jogoDeAzar {
                     "\n3- Parar de jogar e ficar com o saldo atual"
             );
             try {
+                
                 System.out.println("Digite a opção desejada: ");
                 opcao = entrada.nextInt();
             }catch (InputMismatchException erro1) {
-                     System.err.println("Opção inválida");
+            //         System.err.println("Opção inválida");
                      entrada.nextLine(); //descarta a entrada errada do usuário
             }
             switch (opcao) {
 
                 case 1:
-                    System.out.println("O seu saldo é: R$" + saldo);
+                    System.out.println("O seu saldo é: R$" + saldo + ",00");
                     break;
 
                 case 2:
@@ -44,11 +44,11 @@ public class jogoDeAzar {
                     }
 
                     if (saldo >= 200) {
-                        System.out.println("Parabéns !! Você ganhou o jogo !! Seu saldo é: R$" + saldo);
+                        System.out.println("Parabéns !! Você ganhou o jogo !! Seu saldo é: R$" + saldo + ",00");
                         System.exit(2);
                     }
                     if (saldo <= 0) {
-                        System.out.println("Infelizmente você perdeu o jogo. Seu saldo é: R$ " + saldo);
+                        System.out.println("Infelizmente você perdeu o jogo. Seu saldo é: R$ " + saldo + ",00");
                         System.exit(2);
                     }
 
@@ -60,7 +60,8 @@ public class jogoDeAzar {
                     break;
 
                 default:
-                    System.out.println("Os valores aceitos são de 1 até 3.");
+                    System.err.println("Os valores aceitos são de 1 até 3.");
+                    break;
             }
         }
     }

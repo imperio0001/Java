@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class switchCase {
     public static void main(String[] args){
-
+        boolean sistema = true;
         int opcao;
         float valor = 0, soma = 0, saque = 0;
         Scanner entrada = new Scanner(System.in);
 
-        while(true) {
+        while(sistema) {
 
             System.out.println("\nEscolha uma das opções: " +
                     "\n1- Saldo" +
@@ -21,7 +21,7 @@ public class switchCase {
             switch (opcao){
 
                 case 1:
-                    System.out.println("O seu saldo é: R$" + soma);
+                    System.out.println("O seu saldo é: R$" + (soma - saque));
                     break;
 
                 case 2:
@@ -40,6 +40,7 @@ public class switchCase {
 
                 case 0:
                     System.out.println("Programa finalizado.");
+                    sistema = false;
                     break;
 
                 default:

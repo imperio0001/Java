@@ -1,4 +1,4 @@
-package primeiroProjeto;
+package primeiroProjeto.POO;
 
 public class Pessoa {
     private String primeiroNome;
