@@ -12,7 +12,7 @@ Apresentar todos os dados da list.
 
 import java.util.*;
 
-public class ControleLoja {
+public class ex2 {
     public static void main(String[] args) {
     int opcao;
     String item1 = "Bola de futebol";
