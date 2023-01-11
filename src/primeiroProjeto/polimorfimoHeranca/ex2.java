@@ -18,11 +18,9 @@ public class ControleLoja {
     String item1 = "Bola de futebol";
     String item2 = "Bola de basquete";
     String item3 = "Bola de vôlei";
-    int remove = 0;
     int escolhaItem;
     boolean sistema = true;
     Scanner entrada = new Scanner(System.in);
-    int contador = 0;
     int valor = 0;
     String item, itemEdicao;
     List<String> estoque = new ArrayList<String>();
@@ -59,7 +57,14 @@ public class ControleLoja {
                         estoque.add(item1);
                         quantidade.add(valor);
                         System.out.println("Foram adicionadas " + quantidade + " do item " + item2 + " ao estoque.");
+                    }else if(escolhaItem == 3){
+                        estoque.add(item3);
+                        quantidade.add(valor);
+                        System.out.println("Foram adicionadas " + quantidade + " do item " + item3 + " ao estoque.");
+                    }else {
+                        System.out.println("\nOpção inválida. Digite uma opção de 1 até 3.");
                     }
+
                 }
                 case 2 -> {
                     System.out.println("opção 2");
@@ -69,9 +74,16 @@ public class ControleLoja {
                     System.out.println("3 - Bola de vôlei");
                     escolhaItem = entrada.nextInt();
                     if(escolhaItem == 1){
-                        // quantidade.remove(valor); não é removida a qde
                         quantidade.removeAll(Collections.singleton(valor));
                         System.out.println("Foram removidas as quantidades do item " + item1 + " ao estoque.");
+                    }else if(escolhaItem == 2){
+                        quantidade.removeAll(Collections.singleton(valor));
+                        System.out.println("Foram removidas as quantidades do item " + item2 + " ao estoque.");
+                    }else if(escolhaItem == 3){
+                        quantidade.removeAll(Collections.singleton(valor));
+                        System.out.println("Foram removidas as quantidades do item " + item3 + " ao estoque.");
+                    }else {
+                        System.out.println("\nOpção inválida. Digite uma opção de 1 até 3.");
                     }
                 }
                 case 3 -> {
